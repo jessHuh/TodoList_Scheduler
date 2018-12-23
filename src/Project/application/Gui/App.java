@@ -1,9 +1,8 @@
 package Project.application.Gui;
 
-import Item.Item;
-import Item.ItemManager;
-import Item.ItemWithDueDate;
-import function.FileWrite;
+import Project.application.Item.ItemManager;
+import Project.application.Item.ItemWithDueDate;
+import Project.application.function.FileWrite;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -21,9 +20,9 @@ public class App {
     private JLabel importance;
     private JTextField tittleTextField;
     private String infoOnComponenet;
-    private Item item;
-    private static ItemManager itemManager;
-    private static FileWrite fileWrite = new FileWrite();
+    private Project.application.Item.Item item;
+    private static Project.application.Item.ItemManager itemManager;
+    private static Project.application.function.FileWrite fileWrite = new FileWrite();
     private static String file = "outputItems.txt";
 
     public App() {

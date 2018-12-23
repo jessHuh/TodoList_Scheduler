@@ -1,14 +1,13 @@
 package Project.application.ui.model;
 
 
-import Item.*;
-import exception.notValidException;
-import exception.outBoundException;
-import exception.tooLongException;
-import exception.useCommaException;
-import function.FileWrite;
-import user.Observer;
-import user.Users;
+import Project.application.Item.*;
+import Project.application.exception.notValidException;
+import Project.application.exception.outBoundException;
+import Project.application.exception.tooLongException;
+import Project.application.exception.useCommaException;
+import Project.application.function.FileWrite;
+import Project.application.user.Users;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
@@ -24,9 +23,9 @@ public class StartCalendar {
     private String file = "outputItems.txt";
     private FileWrite fileWrite = new FileWrite();
     private String detail;
-    private Observer jessica = new Users("Jessica");
-    private Observer kyle = new Users("Kyle");
-    private Observer sunny = new Users("Sunny");
+    private Project.application.user.Observer jessica =  new Users("Jessica");
+    private Project.application.user.Observer kyle =  new Users("Kyle");
+    private Project.application.user.Observer sunny =  new Users("Sunny");
 
     public StartCalendar(String name) throws IOException {
         this.name = name;
@@ -53,10 +52,10 @@ public class StartCalendar {
                         addItem();
                         running1 = false;
                     } catch (notValidException e) {
+
                         System.out.println("you either used comm or input too long try it again!");
-                    }
-                     catch (NumberFormatException a) {
-                         System.out.println("You didn't put a number! " );
+                    } catch (NumberFormatException a) {
+                        System.out.println("You didn't put a number! ");
                     }
                 }
             } else if (option.equals("browse")) {

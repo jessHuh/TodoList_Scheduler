@@ -1,8 +1,8 @@
 package Project.application.Gui;
 
-import Item.Item;
-import Item.ItemManager;
-import function.FileWrite;
+import Project.application.Item.Item;
+import Project.application.Item.ItemManager;
+import Project.application.function.FileWrite;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;

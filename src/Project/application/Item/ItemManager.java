@@ -1,7 +1,7 @@
 package Project.application.Item;
 
-import exception.outBoundException;
-import function.FileWrite;
+import Project.application.function.FileWrite;
+import Project.application.exception.outBoundException;
 
 import java.io.IOException;
 import java.util.*;
@@ -9,7 +9,7 @@ import java.util.*;
 public class ItemManager extends Subject {
     private Map<String, ArrayList<Item>> itemMap;
     private List<Item> importantItemList;
-    private FileWrite fileWrite = new FileWrite();
+    private Project.application.function.FileWrite fileWrite = new FileWrite();
     private String file = "outputItems.txt";
     //private static ItemManager instance;
 

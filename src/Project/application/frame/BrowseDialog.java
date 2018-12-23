@@ -1,6 +1,6 @@
 package Project.application.frame;
 
-import Item.Item;
+import Project.application.Item.Item;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableCellRenderer;
@@ -12,7 +12,7 @@ import java.awt.event.KeyEvent;
 import java.util.HashSet;
 import java.util.Set;
 
-import static frame.MainFrame.itemManager;
+import static Project.application.frame.MainFrame.itemManager;
 
 
 public class BrowseDialog extends JDialog implements ActionListener {

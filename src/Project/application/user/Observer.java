@@ -1,6 +1,6 @@
 package Project.application.user;
 
-import Item.Item;
+import Project.application.Item.Item;
 
 public interface Observer {
 

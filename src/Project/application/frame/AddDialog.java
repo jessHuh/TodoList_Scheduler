@@ -1,12 +1,12 @@
 package Project.application.frame;
 
 
-import Item.ItemWithDueDate;
-import Item.ItemWithoutDueDate;
+import Project.application.Item.ItemWithDueDate;
+import Project.application.Item.ItemWithoutDueDate;
 import Project.application.Item.Item;
-import exception.notValidException;
-import exception.tooLongException;
-import exception.useCommaException;
+import Project.application.exception.notValidException;
+import Project.application.exception.tooLongException;
+import Project.application.exception.useCommaException;
 
 import javax.swing.*;
 import java.awt.event.ActionEvent;
@@ -15,7 +15,7 @@ import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
 
-import static frame.MainFrame.itemManager;
+import static Project.application.frame.MainFrame.itemManager;
 
 public class AddDialog extends JDialog{
     private final String[] titles = {"Study", "Career", "Event", "Chore"};

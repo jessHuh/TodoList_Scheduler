@@ -1,6 +1,6 @@
 package Project.application.Item;
 
-import user.Observer;
+import Project.application.user.Observer;
 
 import java.util.ArrayList;
 import java.util.List;
