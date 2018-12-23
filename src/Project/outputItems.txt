@@ -1,0 +1,26 @@
+210,assignment,181010,yes
+121,midterm study,181015,no
+210,assignment,181010,yes
+121,midterm study,181015,no
+302,assignment,181010,yes
+302,midterm study,181015,no
+210,assignment,181010,yes
+121,midterm study,181015,no
+210,assignment,181010,yes
+121,midterm study,181015,no
+302,assignment,181010,yes
+302,midterm study,181015,no
+210,assignment,181010,yes
+121,midterm study,181015,no
+210,assignment,181010,yes
+121,midterm study,181015,no
+302,assignment,181010,yes
+302,midterm study,181015,no
+302,assignment,181010,yes
+302,midterm study,181015,no
+302,assignment,181010,yes
+302,midterm study,181015,no
+302,assignment,181010,yes
+302,midterm study,181015,no
+302,assignment,181010,yes
+302,midterm study,181015,no
