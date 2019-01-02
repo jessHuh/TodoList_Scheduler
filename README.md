@@ -1,8 +1,8 @@
 # Lightbulb! Schedular App
 
-#### Individual Course Project (CPSC 210 Software Construction)
+### Individual Course Project (CPSC 210 Software Construction)
 
-#### About
+### About
 
 ##### A schedular app using java which manages user’s academic and personal schedule.  
 
@@ -27,6 +27,6 @@ testing, throwing exceptions, API, using design patterns
 
 
 
-#### Installation
+### Installation
 
 To run the program, run Project.application.frame.MainFrame
