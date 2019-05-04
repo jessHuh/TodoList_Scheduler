@@ -1,10 +1,11 @@
 # Lightbulb! Schedular App
 
-### Individual Course Project (CPSC 210 Software Construction)
+### Personal Project
 
 ### About
 
-##### A schedular app using java which manages user’s academic and personal schedule.  
+##### A schedular app that manages user’s academic and personal agenda; 
+##### users can set priorities, categorize items and sort items by date, category and priority order
 
 The app's main functions are :
 - Add, edit, delete user's schedule
@@ -15,7 +16,7 @@ The app's main functions are :
 
 It also includes :
 - Randomly selected animal photos 
-- 2019 Holiday List using API
+- 2019 Holiday List using Calendar API
 
 
 Implemented methods are : 
